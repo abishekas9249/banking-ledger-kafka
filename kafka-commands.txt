@@ -1,0 +1,7 @@
+1. View Kafka Account Creation Event Messages
+
+docker exec -it kafka /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic account-events --from-beginning
+
+2. Check Kafka Topic Details and Configuration
+
+docker exec -it kafka /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic account-events
