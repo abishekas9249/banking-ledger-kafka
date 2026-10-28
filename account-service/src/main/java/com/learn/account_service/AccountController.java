@@ -3,7 +3,6 @@ package com.learn.account_service;
 import com.learn.account_service.model.Account;
 import com.learn.account_service.repository.AccountRepository;
 import com.learn.account_service.service.AccountService;
-import com.learn.account_service.utils.KafkaTopicConfig;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
